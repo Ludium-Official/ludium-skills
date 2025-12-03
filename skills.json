@@ -1,482 +1,1745 @@
 [
-  { "name": "React" },
-  { "name": "Next.js" },
-  { "name": "TypeScript" },
-  { "name": "JavaScript" },
-  { "name": "HTML" },
-  { "name": "CSS" },
-  { "name": "Sass" },
-  { "name": "Tailwind CSS" },
-  { "name": "Redux" },
-  { "name": "Zustand" },
-  { "name": "Vue.js" },
-  { "name": "Nuxt.js" },
-  { "name": "Angular" },
-  { "name": "Svelte" },
-  { "name": "SolidJS" },
-  { "name": "Astro" },
-  { "name": "Qwik" },
-  { "name": "jQuery" },
-  { "name": "Bootstrap" },
-  { "name": "Material UI" },
-  { "name": "Chakra UI" },
-  { "name": "shadcn/ui" },
-  { "name": "Framer Motion" },
-  { "name": "GSAP" },
-  { "name": "Three.js" },
-  { "name": "D3.js" },
-  { "name": "Chart.js" },
-  { "name": "Highcharts" },
-  { "name": "ECharts" },
-  { "name": "React Query" },
-  { "name": "TanStack Query" },
-  { "name": "SWR" },
-  { "name": "Axios" },
-  { "name": "Fetch API" },
-  { "name": "GraphQL" },
-  { "name": "Apollo Client" },
-  { "name": "Relay" },
-  { "name": "tRPC" },
-  { "name": "Node.js" },
-  { "name": "Express.js" },
-  { "name": "NestJS" },
-  { "name": "Koa" },
-  { "name": "Fastify" },
-  { "name": "Hapi" },
-  { "name": "AdonisJS" },
-  { "name": "Bun" },
-  { "name": "Deno" },
-  { "name": "Prisma" },
-  { "name": "Sequelize" },
-  { "name": "Mongoose" },
-  { "name": "Drizzle ORM" },
-  { "name": "PostgreSQL" },
-  { "name": "MySQL" },
-  { "name": "SQLite" },
-  { "name": "MongoDB" },
-  { "name": "Redis" },
-  { "name": "ElasticSearch" },
-  { "name": "MariaDB" },
-  { "name": "Firebase" },
-  { "name": "Supabase" },
-  { "name": "PocketBase" },
-  { "name": "PlanetScale" },
-  { "name": "AWS" },
-  { "name": "GCP" },
-  { "name": "Azure" },
-  { "name": "Vercel" },
-  { "name": "Netlify" },
-  { "name": "Render" },
-  { "name": "Heroku" },
-  { "name": "DigitalOcean" },
-  { "name": "Railway" },
-  { "name": "Docker" },
-  { "name": "Kubernetes" },
-  { "name": "Terraform" },
-  { "name": "Ansible" },
-  { "name": "Jenkins" },
-  { "name": "GitHub Actions" },
-  { "name": "CircleCI" },
-  { "name": "Travis CI" },
-  { "name": "GitLab CI" },
-  { "name": "Bash" },
-  { "name": "Python" },
-  { "name": "Django" },
-  { "name": "Flask" },
-  { "name": "FastAPI" },
-  { "name": "SQLAlchemy" },
-  { "name": "Pandas" },
-  { "name": "NumPy" },
-  { "name": "Scikit-learn" },
-  { "name": "TensorFlow" },
-  { "name": "PyTorch" },
-  { "name": "Keras" },
-  { "name": "OpenCV" },
-  { "name": "LangChain" },
-  { "name": "Hugging Face" },
-  { "name": "OpenAI API" },
-  { "name": "Claude API" },
-  { "name": "Gemini API" },
-  { "name": "RAG" },
-  { "name": "Vector DB" },
-  { "name": "Pinecone" },
-  { "name": "Weaviate" },
-  { "name": "Qdrant" },
-  { "name": "Milvus" },
-  { "name": "PHP" },
-  { "name": "Laravel" },
-  { "name": "CodeIgniter" },
-  { "name": "Symfony" },
-  { "name": "Ruby" },
-  { "name": "Ruby on Rails" },
-  { "name": "Go" },
-  { "name": "Gin" },
-  { "name": "Fiber" },
-  { "name": "Rust" },
-  { "name": "Axum" },
-  { "name": "Rocket" },
-  { "name": "Java" },
-  { "name": "Spring Boot" },
-  { "name": "Kotlin" },
-  { "name": "Swift" },
-  { "name": "Objective-C" },
-  { "name": "C#" },
-  { "name": ".NET" },
-  { "name": "ASP.NET" },
-  { "name": "Unity" },
-  { "name": "Unreal Engine" },
-  { "name": "C++" },
-  { "name": "C" },
-  { "name": "Solidity" },
-  { "name": "Web3.js" },
-  { "name": "Ethers.js" },
-  { "name": "Wagmi" },
-  { "name": "Viem" },
-  { "name": "Hardhat" },
-  { "name": "Foundry" },
-  { "name": "Truffle" },
-  { "name": "IPFS" },
-  { "name": "The Graph" },
-  { "name": "Chainlink" },
-  { "name": "Polygon" },
-  { "name": "Ethereum" },
-  { "name": "Solana" },
-  { "name": "Sui" },
-  { "name": "Aptos" },
-  { "name": "Cosmos SDK" },
-  { "name": "Substrate" },
-  { "name": "Kafka" },
-  { "name": "RabbitMQ" },
-  { "name": "NATS" },
-  { "name": "gRPC" },
-  { "name": "REST API" },
-  { "name": "WebSocket" },
-  { "name": "OpenAPI" },
-  { "name": "Postman" },
-  { "name": "Insomnia" },
-  { "name": "Swagger" },
-  { "name": "Jest" },
-  { "name": "Mocha" },
-  { "name": "Chai" },
-  { "name": "Vitest" },
-  { "name": "Testing Library" },
-  { "name": "Cypress" },
-  { "name": "Playwright" },
-  { "name": "Storybook" },
-  { "name": "Chromatic" },
-  { "name": "ESLint" },
-  { "name": "Prettier" },
-  { "name": "Husky" },
-  { "name": "Lint-Staged" },
-  { "name": "Commitlint" },
-  { "name": "Semantic Release" },
-  { "name": "Conventional Commits" },
-  { "name": "Vite" },
-  { "name": "Webpack" },
-  { "name": "Rollup" },
-  { "name": "Parcel" },
-  { "name": "SWC" },
-  { "name": "esbuild" },
-  { "name": "Babel" },
-  { "name": "NPM" },
-  { "name": "Yarn" },
-  { "name": "pnpm" },
-  { "name": "Turborepo" },
-  { "name": "Nx" },
-  { "name": "Lerna" },
-  { "name": "Monorepo" },
-  { "name": "Micro Frontends" },
-  { "name": "Server Components" },
-  { "name": "ISR (Incremental Static Regeneration)" },
-  { "name": "SSG (Static Site Generation)" },
-  { "name": "SSR (Server Side Rendering)" },
-  { "name": "CSR (Client Side Rendering)" },
-  { "name": "Edge Functions" },
-  { "name": "Server Actions" },
-  { "name": "Cloudflare Workers" },
-  { "name": "Vercel Edge" },
-  { "name": "AWS Lambda" },
-  { "name": "Google Cloud Functions" },
-  { "name": "Azure Functions" },
-  { "name": "NGINX" },
-  { "name": "Apache" },
-  { "name": "Caddy" },
-  { "name": "HAProxy" },
-  { "name": "Traefik" },
-  { "name": "Load Balancer" },
-  { "name": "Reverse Proxy" },
-  { "name": "CloudFront" },
-  { "name": "S3" },
-  { "name": "ECS" },
-  { "name": "EKS" },
-  { "name": "Lambda@Edge" },
-  { "name": "Route 53" },
-  { "name": "IAM" },
-  { "name": "Cognito" },
-  { "name": "OAuth" },
-  { "name": "JWT" },
-  { "name": "Session Storage" },
-  { "name": "LocalStorage" },
-  { "name": "IndexedDB" },
-  { "name": "Service Worker" },
-  { "name": "PWA" },
-  { "name": "WebAssembly" },
-  { "name": "Tauri" },
-  { "name": "Electron" },
-  { "name": "Capacitor" },
-  { "name": "Ionic" },
-  { "name": "React Native" },
-  { "name": "Expo" },
-  { "name": "Flutter" },
-  { "name": "SwiftUI" },
-  { "name": "Jetpack Compose" },
-  { "name": "Xamarin" },
-  { "name": "Unity3D" },
-  { "name": "Unreal Engine 5" },
-  { "name": "Godot" },
-  { "name": "Blender" },
-  { "name": "WebGL" },
-  { "name": "Canvas API" },
-  { "name": "SVG" },
-  { "name": "Vega-Lite" },
-  { "name": "Tailwind Merge" },
-  { "name": "PostCSS" },
-  { "name": "Autoprefixer" },
-  { "name": "Stylelint" },
-  { "name": "Emotion" },
-  { "name": "Styled Components" },
-  { "name": "Vanilla Extract" },
-  { "name": "Stitches" },
-  { "name": "Radix UI" },
-  { "name": "Lucide React" },
-  { "name": "Heroicons" },
-  { "name": "React Hook Form" },
-  { "name": "Formik" },
-  { "name": "Zod" },
-  { "name": "Yup" },
-  { "name": "Valibot" },
-  { "name": "Joi" },
-  { "name": "React Table" },
-  { "name": "TanStack Table" },
-  { "name": "Ag-Grid" },
-  { "name": "DataGrid" },
-  { "name": "Mantine" },
-  { "name": "Ant Design" },
-  { "name": "BlueprintJS" },
-  { "name": "Evergreen" },
-  { "name": "Carbon Design" },
-  { "name": "PrimeReact" },
-  { "name": "React Aria" },
-  { "name": "Recharts" },
-  { "name": "Victory" },
-  { "name": "Visx" },
-  { "name": "Nivo" },
-  { "name": "Mapbox" },
-  { "name": "Leaflet" },
-  { "name": "CesiumJS" },
-  { "name": "ArcGIS API" },
-  { "name": "OpenStreetMap" },
-  { "name": "Auth0" },
-  { "name": "Clerk" },
-  { "name": "Supabase Auth" },
-  { "name": "Firebase Auth" },
-  { "name": "NextAuth.js" },
-  { "name": "Passport.js" },
-  { "name": "Bcrypt" },
-  { "name": "Argon2" },
-  { "name": "OpenSSL" },
-  { "name": "OAuth2" },
-  { "name": "SAML" },
-  { "name": "WebAuthn" },
-  { "name": "FIDO2" },
-  { "name": "JWT Decode" },
-  { "name": "CORS" },
-  { "name": "Helmet" },
-  { "name": "CSRF Protection" },
-  { "name": "Rate Limiter" },
-  { "name": "Morgan" },
-  { "name": "PM2" },
-  { "name": "Nodemon" },
-  { "name": "Supervisor" },
-  { "name": "LogRocket" },
-  { "name": "Sentry" },
-  { "name": "Datadog" },
-  { "name": "New Relic" },
-  { "name": "Grafana" },
-  { "name": "Prometheus" },
-  { "name": "Loki" },
-  { "name": "Elastic APM" },
-  { "name": "Papertrail" },
-  { "name": "Graylog" },
-  { "name": "Logstash" },
-  { "name": "Kibana" },
-  { "name": "Airflow" },
-  { "name": "Dagster" },
-  { "name": "Prefect" },
-  { "name": "Celery" },
-  { "name": "BullMQ" },
-  { "name": "Redis Streams" },
-  { "name": "EventBridge" },
-  { "name": "SQS" },
-  { "name": "SNS" },
-  { "name": "Kafka Streams" },
-  { "name": "Zookeeper" },
-  { "name": "gRPC Gateway" },
-  { "name": "GraphQL Yoga" },
-  { "name": "Mercurius" },
-  { "name": "Nexus" },
-  { "name": "TypeGraphQL" },
-  { "name": "Hasura" },
-  { "name": "PostGraphile" },
-  { "name": "Dgraph" },
-  { "name": "ArangoDB" },
-  { "name": "Cassandra" },
-  { "name": "CouchDB" },
-  { "name": "Neo4j" },
-  { "name": "Gremlin" },
-  { "name": "InfluxDB" },
-  { "name": "TimescaleDB" },
-  { "name": "ClickHouse" },
-  { "name": "DuckDB" },
-  { "name": "Snowflake" },
-  { "name": "BigQuery" },
-  { "name": "Redshift" },
-  { "name": "Data Studio" },
-  { "name": "Metabase" },
-  { "name": "Superset" },
-  { "name": "Tableau" },
-  { "name": "Power BI" },
-  { "name": "Looker" },
-  { "name": "Airbyte" },
-  { "name": "Fivetran" },
-  { "name": "dbt" },
-  { "name": "Snowplow" },
-  { "name": "Segment" },
-  { "name": "Mixpanel" },
-  { "name": "Amplitude" },
-  { "name": "Google Analytics" },
-  { "name": "Hotjar" },
-  { "name": "PostHog" },
-  { "name": "Matomo" },
-  { "name": "FullStory" },
-  { "name": "Heap" },
-  { "name": "Microsoft Clarity" },
-  { "name": "Notion API" },
-  { "name": "Slack API" },
-  { "name": "Discord API" },
-  { "name": "Telegram Bot API" },
-  { "name": "Twilio" },
-  { "name": "SendGrid" },
-  { "name": "Mailgun" },
-  { "name": "AWS SES" },
-  { "name": "Postmark" },
-  { "name": "Resend" },
-  { "name": "Nodemailer" },
-  { "name": "SMTP" },
-  { "name": "OAuth2.0" },
-  { "name": "OpenID Connect" },
-  { "name": "JWT Auth" },
-  { "name": "Firebase Cloud Messaging" },
-  { "name": "Expo Push Notifications" },
-  { "name": "OneSignal" },
-  { "name": "Web Push API" },
-  { "name": "Socket.IO" },
-  { "name": "Liveblocks" },
-  { "name": "Ably" },
-  { "name": "Pusher" },
-  { "name": "Supabase Realtime" },
-  { "name": "Convex" },
-  { "name": "Appwrite" },
-  { "name": "Nhost" },
-  { "name": "Directus" },
-  { "name": "Strapi" },
-  { "name": "KeystoneJS" },
-  { "name": "Sanity.io" },
-  { "name": "Contentful" },
-  { "name": "DatoCMS" },
-  { "name": "GraphCMS" },
-  { "name": "PayloadCMS" },
-  { "name": "WordPress" },
-  { "name": "Drupal" },
-  { "name": "Joomla" },
-  { "name": "Ghost" },
-  { "name": "11ty" },
-  { "name": "Hugo" },
-  { "name": "Gatsby" },
-  { "name": "Remix" },
-  { "name": "Solid Start" },
-  { "name": "T3 Stack" },
-  { "name": "Expo Router" },
-  { "name": "React Navigation" },
-  { "name": "TanStack Router" },
-  { "name": "React Location" },
-  { "name": "Next Router" },
-  { "name": "Zustand Persist" },
-  { "name": "Recoil" },
-  { "name": "MobX" },
-  { "name": "Jotai" },
-  { "name": "Hookstate" },
-  { "name": "XState" },
-  { "name": "Redux Toolkit" },
-  { "name": "Immer" },
-  { "name": "RxJS" },
-  { "name": "Lodash" },
-  { "name": "Day.js" },
-  { "name": "Moment.js" },
-  { "name": "Date-fns" },
-  { "name": "Luxon" },
-  { "name": "uuid" },
-  { "name": "Zxcvbn" },
-  { "name": "CryptoJS" },
-  { "name": "Web Crypto API" },
-  { "name": "TOTP" },
-  { "name": "YubiKey" },
-  { "name": "Okta" },
-  { "name": "Ping Identity" },
-  { "name": "Azure AD" },
-  { "name": "Google Identity" },
-  { "name": "Apple Sign In" },
-  { "name": "Stripe" },
-  { "name": "PayPal" },
-  { "name": "Braintree" },
-  { "name": "Adyen" },
-  { "name": "Square" },
-  { "name": "Toss Payments" },
-  { "name": "Bootpay" },
-  { "name": "Iamport" },
-  { "name": "Kakao Pay" },
-  { "name": "Apple Pay" },
-  { "name": "Google Pay" },
-  { "name": "Web Monetization API" },
-  { "name": "Plaid" },
-  { "name": "Coinbase API" },
-  { "name": "MetaMask" },
-  { "name": "RainbowKit" },
-  { "name": "Alchemy" },
-  { "name": "Infura" },
-  { "name": "QuickNode" },
-  { "name": "Moralis" },
-  { "name": "Remix IDE" },
-  { "name": "Ganache" },
-  { "name": "Vyper" },
-  { "name": "Polkadot.js" },
-  { "name": "Filecoin" },
-  { "name": "Arweave" },
-  { "name": "Pinata" },
-  { "name": "NFT.Storage" },
-  { "name": "ENS" },
-  { "name": "Arbitrum" },
-  { "name": "Optimism" },
-  { "name": "Base" },
-  { "name": "Avalanche" },
-  { "name": "Near Protocol" },
-  { "name": "ICP" },
-  { "name": "ZKSync" },
-  { "name": "StarkNet" },
-  { "name": "Scroll" },
-  { "name": "Celestia" },
-  { "name": "EigenLayer" },
-  { "name": "Lido" },
-  { "name": "Rocket Pool" },
-  { "name": "Aave" }
+  {
+    "name": "Vite"
+  },
+  {
+    "name": "Email Marketing"
+  },
+  {
+    "name": "Delivery Tracking"
+  },
+  {
+    "name": "Supabase"
+  },
+  {
+    "name": "User Journey Mapping"
+  },
+  {
+    "name": "Vector DB"
+  },
+  {
+    "name": "Spring Boot"
+  },
+  {
+    "name": "Project Management"
+  },
+  {
+    "name": "Tableau"
+  },
+  {
+    "name": "Customer Management"
+  },
+  {
+    "name": "Workflow Automation"
+  },
+  {
+    "name": "Hugging Face"
+  },
+  {
+    "name": "Milvus"
+  },
+  {
+    "name": "Nuxt.js"
+  },
+  {
+    "name": "Task Tracking"
+  },
+  {
+    "name": "Zod"
+  },
+  {
+    "name": "Roadmap Planning"
+  },
+  {
+    "name": "Operational Planning"
+  },
+  {
+    "name": "Forecasting"
+  },
+  {
+    "name": "Joi"
+  },
+  {
+    "name": "PayloadCMS"
+  },
+  {
+    "name": "Customer Interviewing"
+  },
+  {
+    "name": "Auth0"
+  },
+  {
+    "name": "Chai"
+  },
+  {
+    "name": "Ethereum"
+  },
+  {
+    "name": "Budget Reporting"
+  },
+  {
+    "name": "Agile"
+  },
+  {
+    "name": "Styled Components"
+  },
+  {
+    "name": "Conflict Resolution"
+  },
+  {
+    "name": "Appwrite"
+  },
+  {
+    "name": "Lodash"
+  },
+  {
+    "name": "Communication"
+  },
+  {
+    "name": "Redis"
+  },
+  {
+    "name": "Hardhat"
+  },
+  {
+    "name": "Issue Tracking"
+  },
+  {
+    "name": "Gatsby"
+  },
+  {
+    "name": "PlanetScale"
+  },
+  {
+    "name": "React"
+  },
+  {
+    "name": "Decision Making"
+  },
+  {
+    "name": "Redshift"
+  },
+  {
+    "name": "ECS"
+  },
+  {
+    "name": "DataGrid"
+  },
+  {
+    "name": "Highcharts"
+  },
+  {
+    "name": "Ant Design"
+  },
+  {
+    "name": "Apple Pay"
+  },
+  {
+    "name": "Azure AD"
+  },
+  {
+    "name": "KeystoneJS"
+  },
+  {
+    "name": "ArcGIS API"
+  },
+  {
+    "name": "MongoDB"
+  },
+  {
+    "name": "Ruby"
+  },
+  {
+    "name": "AWS Lambda"
+  },
+  {
+    "name": "SAML"
+  },
+  {
+    "name": "Cloudflare Workers"
+  },
+  {
+    "name": "Brainstorming"
+  },
+  {
+    "name": "Leaflet"
+  },
+  {
+    "name": "Conventional Commits"
+  },
+  {
+    "name": "React Navigation"
+  },
+  {
+    "name": "Scrum"
+  },
+  {
+    "name": "Commitlint"
+  },
+  {
+    "name": "WebSocket"
+  },
+  {
+    "name": "NPM"
+  },
+  {
+    "name": "CSRF Protection"
+  },
+  {
+    "name": "Grafana"
+  },
+  {
+    "name": "Feature Prioritization"
+  },
+  {
+    "name": "Rocket"
+  },
+  {
+    "name": ".NET"
+  },
+  {
+    "name": "pnpm"
+  },
+  {
+    "name": "Celestia"
+  },
+  {
+    "name": "Deno"
+  },
+  {
+    "name": "Moralis"
+  },
+  {
+    "name": "RabbitMQ"
+  },
+  {
+    "name": "Postman"
+  },
+  {
+    "name": "Nodemailer"
+  },
+  {
+    "name": "Traefik"
+  },
+  {
+    "name": "Webpack"
+  },
+  {
+    "name": "Go"
+  },
+  {
+    "name": "Web Push API"
+  },
+  {
+    "name": "Ag-Grid"
+  },
+  {
+    "name": "OKR Planning"
+  },
+  {
+    "name": "Luxon"
+  },
+  {
+    "name": "Mantine"
+  },
+  {
+    "name": "Lint-Staged"
+  },
+  {
+    "name": "Lambda@Edge"
+  },
+  {
+    "name": "React Table"
+  },
+  {
+    "name": "Near Protocol"
+  },
+  {
+    "name": "MariaDB"
+  },
+  {
+    "name": "Terraform"
+  },
+  {
+    "name": "GitHub Actions"
+  },
+  {
+    "name": "tRPC"
+  },
+  {
+    "name": "Yarn"
+  },
+  {
+    "name": "Ruby on Rails"
+  },
+  {
+    "name": "Axum"
+  },
+  {
+    "name": "Datadog"
+  },
+  {
+    "name": "SWC"
+  },
+  {
+    "name": "Recoil"
+  },
+  {
+    "name": "Svelte"
+  },
+  {
+    "name": "GitLab CI"
+  },
+  {
+    "name": "CORS"
+  },
+  {
+    "name": "Ganache"
+  },
+  {
+    "name": "Firebase Cloud Messaging"
+  },
+  {
+    "name": "Jenkins"
+  },
+  {
+    "name": "Render"
+  },
+  {
+    "name": "Power BI"
+  },
+  {
+    "name": "Contract Review"
+  },
+  {
+    "name": "Material UI"
+  },
+  {
+    "name": "Apache"
+  },
+  {
+    "name": "DigitalOcean"
+  },
+  {
+    "name": "SQLAlchemy"
+  },
+  {
+    "name": "Fetch API"
+  },
+  {
+    "name": "Vue.js"
+  },
+  {
+    "name": "C++"
+  },
+  {
+    "name": "WordPress"
+  },
+  {
+    "name": "Stylelint"
+  },
+  {
+    "name": "Looker"
+  },
+  {
+    "name": "Express.js"
+  },
+  {
+    "name": "Unreal Engine"
+  },
+  {
+    "name": "Xamarin"
+  },
+  {
+    "name": "ElasticSearch"
+  },
+  {
+    "name": "Google Pay"
+  },
+  {
+    "name": "Neo4j"
+  },
+  {
+    "name": "LangChain"
+  },
+  {
+    "name": "Mongoose"
+  },
+  {
+    "name": "React Native"
+  },
+  {
+    "name": "Ably"
+  },
+  {
+    "name": "OAuth"
+  },
+  {
+    "name": "Performance Review"
+  },
+  {
+    "name": "PostCSS"
+  },
+  {
+    "name": "Spreadsheet Management"
+  },
+  {
+    "name": "Swift"
+  },
+  {
+    "name": "Truffle"
+  },
+  {
+    "name": "Rust"
+  },
+  {
+    "name": "Hiring"
+  },
+  {
+    "name": "MySQL"
+  },
+  {
+    "name": "Helmet"
+  },
+  {
+    "name": "Ticket Management"
+  },
+  {
+    "name": "Morgan"
+  },
+  {
+    "name": "Substrate"
+  },
+  {
+    "name": "TypeScript"
+  },
+  {
+    "name": "Meeting Facilitation"
+  },
+  {
+    "name": "Semantic Release"
+  },
+  {
+    "name": "DuckDB"
+  },
+  {
+    "name": "Client Onboarding"
+  },
+  {
+    "name": "The Graph"
+  },
+  {
+    "name": "Apple Sign In"
+  },
+  {
+    "name": "Jest"
+  },
+  {
+    "name": "Zustand Persist"
+  },
+  {
+    "name": "CouchDB"
+  },
+  {
+    "name": "PWA"
+  },
+  {
+    "name": "Event Planning"
+  },
+  {
+    "name": "PocketBase"
+  },
+  {
+    "name": "IPFS"
+  },
+  {
+    "name": "Insomnia"
+  },
+  {
+    "name": "Swagger"
+  },
+  {
+    "name": "Supabase Realtime"
+  },
+  {
+    "name": "Cosmos SDK"
+  },
+  {
+    "name": "ZKSync"
+  },
+  {
+    "name": "Nx"
+  },
+  {
+    "name": "Work Planning"
+  },
+  {
+    "name": "Supabase Auth"
+  },
+  {
+    "name": "React Hook Form"
+  },
+  {
+    "name": "Blender"
+  },
+  {
+    "name": "PM2"
+  },
+  {
+    "name": "Monorepo"
+  },
+  {
+    "name": "Stitches"
+  },
+  {
+    "name": "QuickNode"
+  },
+  {
+    "name": "Bash"
+  },
+  {
+    "name": "RxJS"
+  },
+  {
+    "name": "WebAssembly"
+  },
+  {
+    "name": "Drupal"
+  },
+  {
+    "name": "Sprint Planning"
+  },
+  {
+    "name": "Account Management"
+  },
+  {
+    "name": "FullStory"
+  },
+  {
+    "name": "Sequelize"
+  },
+  {
+    "name": "Vercel"
+  },
+  {
+    "name": "Parcel"
+  },
+  {
+    "name": "Unity"
+  },
+  {
+    "name": "RAG"
+  },
+  {
+    "name": "Strapi"
+  },
+  {
+    "name": "Chainlink"
+  },
+  {
+    "name": "System Analysis"
+  },
+  {
+    "name": "Python"
+  },
+  {
+    "name": "Solidity"
+  },
+  {
+    "name": "Ghost"
+  },
+  {
+    "name": "Hotjar"
+  },
+  {
+    "name": "Micro Frontends"
+  },
+  {
+    "name": "Redux"
+  },
+  {
+    "name": "Scheduling Tools"
+  },
+  {
+    "name": "Quality Assurance"
+  },
+  {
+    "name": "Rollup"
+  },
+  {
+    "name": "Kakao Pay"
+  },
+  {
+    "name": "User Testing"
+  },
+  {
+    "name": "Product Management"
+  },
+  {
+    "name": "Koa"
+  },
+  {
+    "name": "Slack API"
+  },
+  {
+    "name": "Presentation"
+  },
+  {
+    "name": "Emotion"
+  },
+  {
+    "name": "Canvas API"
+  },
+  {
+    "name": "Server Components"
+  },
+  {
+    "name": "Mailgun"
+  },
+  {
+    "name": "Java"
+  },
+  {
+    "name": "Partnership Management"
+  },
+  {
+    "name": "OpenSSL"
+  },
+  {
+    "name": "Victory"
+  },
+  {
+    "name": "TypeGraphQL"
+  },
+  {
+    "name": "Budget Tracking"
+  },
+  {
+    "name": "Customer Retention"
+  },
+  {
+    "name": "Kibana"
+  },
+  {
+    "name": "Weekly Reporting"
+  },
+  {
+    "name": "YubiKey"
+  },
+  {
+    "name": "User Research"
+  },
+  {
+    "name": "Elastic APM"
+  },
+  {
+    "name": "Snowflake"
+  },
+  {
+    "name": "Clerk"
+  },
+  {
+    "name": "Nexus"
+  },
+  {
+    "name": "File Management"
+  },
+  {
+    "name": "Roadmap Execution"
+  },
+  {
+    "name": "Kubernetes"
+  },
+  {
+    "name": "NGINX"
+  },
+  {
+    "name": "Filecoin"
+  },
+  {
+    "name": "IndexedDB"
+  },
+  {
+    "name": "CSR (Client Side Rendering)"
+  },
+  {
+    "name": "KPI Tracking"
+  },
+  {
+    "name": "AWS"
+  },
+  {
+    "name": "TimescaleDB"
+  },
+  {
+    "name": "NumPy"
+  },
+  {
+    "name": "Azure Functions"
+  },
+  {
+    "name": "Brand Management"
+  },
+  {
+    "name": "React Aria"
+  },
+  {
+    "name": "Chromatic"
+  },
+  {
+    "name": "Lucide React"
+  },
+  {
+    "name": "Prometheus"
+  },
+  {
+    "name": "11ty"
+  },
+  {
+    "name": "Visx"
+  },
+  {
+    "name": "OpenAPI"
+  },
+  {
+    "name": "Electron"
+  },
+  {
+    "name": "Time Management"
+  },
+  {
+    "name": "Travis CI"
+  },
+  {
+    "name": "Airbyte"
+  },
+  {
+    "name": "Web Crypto API"
+  },
+  {
+    "name": "Expo Push Notifications"
+  },
+  {
+    "name": "Redis Streams"
+  },
+  {
+    "name": "Sass"
+  },
+  {
+    "name": "CRM Management"
+  },
+  {
+    "name": "Joomla"
+  },
+  {
+    "name": "Research"
+  },
+  {
+    "name": "Zookeeper"
+  },
+  {
+    "name": "Stakeholder Management"
+  },
+  {
+    "name": "Process Improvement"
+  },
+  {
+    "name": "Prettier"
+  },
+  {
+    "name": "Twilio"
+  },
+  {
+    "name": "Negotiation"
+  },
+  {
+    "name": "CSS"
+  },
+  {
+    "name": "Hookstate"
+  },
+  {
+    "name": "Telegram Bot API"
+  },
+  {
+    "name": "Prisma"
+  },
+  {
+    "name": "NATS"
+  },
+  {
+    "name": "Turborepo"
+  },
+  {
+    "name": "Astro"
+  },
+  {
+    "name": "Testing"
+  },
+  {
+    "name": "Sales Strategy"
+  },
+  {
+    "name": "Framer Motion"
+  },
+  {
+    "name": "OAuth2"
+  },
+  {
+    "name": "Django"
+  },
+  {
+    "name": "Vyper"
+  },
+  {
+    "name": "Firebase"
+  },
+  {
+    "name": "Valibot"
+  },
+  {
+    "name": "Training"
+  },
+  {
+    "name": "T3 Stack"
+  },
+  {
+    "name": "Relay"
+  },
+  {
+    "name": "Contentful"
+  },
+  {
+    "name": "Convex"
+  },
+  {
+    "name": "Budget Planning"
+  },
+  {
+    "name": "Argon2"
+  },
+  {
+    "name": "Gemini API"
+  },
+  {
+    "name": "Angular"
+  },
+  {
+    "name": "WebAuthn"
+  },
+  {
+    "name": "Immer"
+  },
+  {
+    "name": "Postmark"
+  },
+  {
+    "name": "Benchmarking"
+  },
+  {
+    "name": "Inventory Tracking"
+  },
+  {
+    "name": "Chart.js"
+  },
+  {
+    "name": "PyTorch"
+  },
+  {
+    "name": "Pusher"
+  },
+  {
+    "name": "Next.js"
+  },
+  {
+    "name": "Resource Planning"
+  },
+  {
+    "name": "FIDO2"
+  },
+  {
+    "name": "Resend"
+  },
+  {
+    "name": "SendGrid"
+  },
+  {
+    "name": "NextAuth.js"
+  },
+  {
+    "name": "Tauri"
+  },
+  {
+    "name": "Laravel"
+  },
+  {
+    "name": "Bootpay"
+  },
+  {
+    "name": "Docker"
+  },
+  {
+    "name": "Ionic"
+  },
+  {
+    "name": "MobX"
+  },
+  {
+    "name": "Scroll"
+  },
+  {
+    "name": "Fivetran"
+  },
+  {
+    "name": "Hugo"
+  },
+  {
+    "name": "SQS"
+  },
+  {
+    "name": "Vega-Lite"
+  },
+  {
+    "name": "Web3.js"
+  },
+  {
+    "name": "Heroicons"
+  },
+  {
+    "name": "SolidJS"
+  },
+  {
+    "name": "ArangoDB"
+  },
+  {
+    "name": "Metabase"
+  },
+  {
+    "name": "Playwright"
+  },
+  {
+    "name": "Sanity.io"
+  },
+  {
+    "name": "Daily Reporting"
+  },
+  {
+    "name": "PHP"
+  },
+  {
+    "name": "IAM"
+  },
+  {
+    "name": "Expo Router"
+  },
+  {
+    "name": "Hasura"
+  },
+  {
+    "name": "BigQuery"
+  },
+  {
+    "name": "Keras"
+  },
+  {
+    "name": "ENS"
+  },
+  {
+    "name": "Pinecone"
+  },
+  {
+    "name": "SQLite"
+  },
+  {
+    "name": "Liveblocks"
+  },
+  {
+    "name": "Marketing Strategy"
+  },
+  {
+    "name": "BlueprintJS"
+  },
+  {
+    "name": "Directus"
+  },
+  {
+    "name": "AdonisJS"
+  },
+  {
+    "name": "Data Entry"
+  },
+  {
+    "name": "GraphQL"
+  },
+  {
+    "name": "Objective-C"
+  },
+  {
+    "name": "PostHog"
+  },
+  {
+    "name": "Supervisor"
+  },
+  {
+    "name": "Heap"
+  },
+  {
+    "name": "Remix IDE"
+  },
+  {
+    "name": "ClickHouse"
+  },
+  {
+    "name": "Plaid"
+  },
+  {
+    "name": "Three.js"
+  },
+  {
+    "name": "Superset"
+  },
+  {
+    "name": "Pinata"
+  },
+  {
+    "name": "Competitive Analysis"
+  },
+  {
+    "name": "LogRocket"
+  },
+  {
+    "name": "DatoCMS"
+  },
+  {
+    "name": "Nivo"
+  },
+  {
+    "name": "HAProxy"
+  },
+  {
+    "name": "Presentation Design"
+  },
+  {
+    "name": "HTML"
+  },
+  {
+    "name": "Celery"
+  },
+  {
+    "name": "Aptos"
+  },
+  {
+    "name": "Capacitor"
+  },
+  {
+    "name": "Content Planning"
+  },
+  {
+    "name": "Solana"
+  },
+  {
+    "name": "NFT.Storage"
+  },
+  {
+    "name": "Claude API"
+  },
+  {
+    "name": "Task Prioritization"
+  },
+  {
+    "name": "dbt"
+  },
+  {
+    "name": "Carbon Design"
+  },
+  {
+    "name": "Evergreen"
+  },
+  {
+    "name": "OpenAI API"
+  },
+  {
+    "name": "Tailwind Merge"
+  },
+  {
+    "name": "Testing Library"
+  },
+  {
+    "name": "Mentoring"
+  },
+  {
+    "name": "Papertrail"
+  },
+  {
+    "name": "Square"
+  },
+  {
+    "name": "Ansible"
+  },
+  {
+    "name": "Nhost"
+  },
+  {
+    "name": "Web Monetization API"
+  },
+  {
+    "name": "Compliance"
+  },
+  {
+    "name": "Airflow"
+  },
+  {
+    "name": "Bcrypt"
+  },
+  {
+    "name": "gRPC"
+  },
+  {
+    "name": "Recharts"
+  },
+  {
+    "name": "ESLint"
+  },
+  {
+    "name": "Redux Toolkit"
+  },
+  {
+    "name": "Server Actions"
+  },
+  {
+    "name": "LocalStorage"
+  },
+  {
+    "name": "Prefect"
+  },
+  {
+    "name": "Microsoft Clarity"
+  },
+  {
+    "name": "Trend Analysis"
+  },
+  {
+    "name": "Customer Support"
+  },
+  {
+    "name": "Mapbox"
+  },
+  {
+    "name": "Babel"
+  },
+  {
+    "name": "gRPC Gateway"
+  },
+  {
+    "name": "SVG"
+  },
+  {
+    "name": "Growth Strategy"
+  },
+  {
+    "name": "Onboarding"
+  },
+  {
+    "name": "Solid Start"
+  },
+  {
+    "name": "C#"
+  },
+  {
+    "name": "Drizzle ORM"
+  },
+  {
+    "name": "PrimeReact"
+  },
+  {
+    "name": "Data Studio"
+  },
+  {
+    "name": "JavaScript"
+  },
+  {
+    "name": "Lido"
+  },
+  {
+    "name": "Viem"
+  },
+  {
+    "name": "Strategic Planning"
+  },
+  {
+    "name": "Date-fns"
+  },
+  {
+    "name": "Mercurius"
+  },
+  {
+    "name": "TanStack Query"
+  },
+  {
+    "name": "REST API"
+  },
+  {
+    "name": "React Location"
+  },
+  {
+    "name": "EventBridge"
+  },
+  {
+    "name": "Cognito"
+  },
+  {
+    "name": "Next Router"
+  },
+  {
+    "name": "Google Cloud Functions"
+  },
+  {
+    "name": "SSG (Static Site Generation)"
+  },
+  {
+    "name": "Arweave"
+  },
+  {
+    "name": "Moment.js"
+  },
+  {
+    "name": "Load Balancer"
+  },
+  {
+    "name": "Market Research"
+  },
+  {
+    "name": "MetaMask"
+  },
+  {
+    "name": "RainbowKit"
+  },
+  {
+    "name": "Rocket Pool"
+  },
+  {
+    "name": "Avalanche"
+  },
+  {
+    "name": "Teamwork"
+  },
+  {
+    "name": "SNS"
+  },
+  {
+    "name": "OpenCV"
+  },
+  {
+    "name": "OneSignal"
+  },
+  {
+    "name": "CloudFront"
+  },
+  {
+    "name": "Ethers.js"
+  },
+  {
+    "name": "New Relic"
+  },
+  {
+    "name": "TanStack Router"
+  },
+  {
+    "name": "Goal Management"
+  },
+  {
+    "name": "Lerna"
+  },
+  {
+    "name": "SMTP"
+  },
+  {
+    "name": "Stripe"
+  },
+  {
+    "name": "Service Worker"
+  },
+  {
+    "name": "Weaviate"
+  },
+  {
+    "name": "Unity3D"
+  },
+  {
+    "name": "StarkNet"
+  },
+  {
+    "name": "CesiumJS"
+  },
+  {
+    "name": "Zxcvbn"
+  },
+  {
+    "name": "ICP"
+  },
+  {
+    "name": "Remix"
+  },
+  {
+    "name": "D3.js"
+  },
+  {
+    "name": "Hapi"
+  },
+  {
+    "name": "Jotai"
+  },
+  {
+    "name": "S3"
+  },
+  {
+    "name": "XState"
+  },
+  {
+    "name": "Monthly Reporting"
+  },
+  {
+    "name": "Day.js"
+  },
+  {
+    "name": "OpenID Connect"
+  },
+  {
+    "name": "Workflow Design"
+  },
+  {
+    "name": "EKS"
+  },
+  {
+    "name": "PostGraphile"
+  },
+  {
+    "name": "Flutter"
+  },
+  {
+    "name": "Scheduling"
+  },
+  {
+    "name": "Godot"
+  },
+  {
+    "name": "Ping Identity"
+  },
+  {
+    "name": "Matomo"
+  },
+  {
+    "name": "esbuild"
+  },
+  {
+    "name": "Record Keeping"
+  },
+  {
+    "name": "FastAPI"
+  },
+  {
+    "name": "SwiftUI"
+  },
+  {
+    "name": "Axios"
+  },
+  {
+    "name": "Braintree"
+  },
+  {
+    "name": "Report Writing"
+  },
+  {
+    "name": "Kotlin"
+  },
+  {
+    "name": "NestJS"
+  },
+  {
+    "name": "Dgraph"
+  },
+  {
+    "name": "Radix UI"
+  },
+  {
+    "name": "KPI Reporting"
+  },
+  {
+    "name": "Cypress"
+  },
+  {
+    "name": "Okta"
+  },
+  {
+    "name": "GraphCMS"
+  },
+  {
+    "name": "jQuery"
+  },
+  {
+    "name": "Leadership"
+  },
+  {
+    "name": "Toss Payments"
+  },
+  {
+    "name": "Bun"
+  },
+  {
+    "name": "TensorFlow"
+  },
+  {
+    "name": "Alchemy"
+  },
+  {
+    "name": "Symfony"
+  },
+  {
+    "name": "Caddy"
+  },
+  {
+    "name": "Husky"
+  },
+  {
+    "name": "Vanilla Extract"
+  },
+  {
+    "name": "Notion API"
+  },
+  {
+    "name": "CodeIgniter"
+  },
+  {
+    "name": "Gremlin"
+  },
+  {
+    "name": "Firebase Auth"
+  },
+  {
+    "name": "Zustand"
+  },
+  {
+    "name": "React Query"
+  },
+  {
+    "name": "GraphQL Yoga"
+  },
+  {
+    "name": "Yup"
+  },
+  {
+    "name": "Amplitude"
+  },
+  {
+    "name": "Netlify"
+  },
+  {
+    "name": "Pandas"
+  },
+  {
+    "name": "Iamport"
+  },
+  {
+    "name": "Qwik"
+  },
+  {
+    "name": "Nodemon"
+  },
+  {
+    "name": "Google Identity"
+  },
+  {
+    "name": "Sui"
+  },
+  {
+    "name": "EigenLayer"
+  },
+  {
+    "name": "Wagmi"
+  },
+  {
+    "name": "Snowplow"
+  },
+  {
+    "name": "Rate Limiter"
+  },
+  {
+    "name": "Tailwind CSS"
+  },
+  {
+    "name": "Mixpanel"
+  },
+  {
+    "name": "Formik"
+  },
+  {
+    "name": "JWT Auth"
+  },
+  {
+    "name": "Goal Setting"
+  },
+  {
+    "name": "BullMQ"
+  },
+  {
+    "name": "PayPal"
+  },
+  {
+    "name": "SEO"
+  },
+  {
+    "name": "TanStack Table"
+  },
+  {
+    "name": "Infura"
+  },
+  {
+    "name": "Logstash"
+  },
+  {
+    "name": "Flask"
+  },
+  {
+    "name": "Unreal Engine 5"
+  },
+  {
+    "name": "Railway"
+  },
+  {
+    "name": "OAuth2.0"
+  },
+  {
+    "name": "Qdrant"
+  },
+  {
+    "name": "A/B Testing"
+  },
+  {
+    "name": "Risk Management"
+  },
+  {
+    "name": "Arbitrum"
+  },
+  {
+    "name": "Requirement Writing"
+  },
+  {
+    "name": "Loki"
+  },
+  {
+    "name": "GCP"
+  },
+  {
+    "name": "Polkadot.js"
+  },
+  {
+    "name": "OpenStreetMap"
+  },
+  {
+    "name": "Azure"
+  },
+  {
+    "name": "Mocha"
+  },
+  {
+    "name": "shadcn/ui"
+  },
+  {
+    "name": "Kafka Streams"
+  },
+  {
+    "name": "ASP.NET"
+  },
+  {
+    "name": "Analytics"
+  },
+  {
+    "name": "CircleCI"
+  },
+  {
+    "name": "ECharts"
+  },
+  {
+    "name": "Node.js"
+  },
+  {
+    "name": "Google Analytics"
+  },
+  {
+    "name": "Apollo Client"
+  },
+  {
+    "name": "JWT"
+  },
+  {
+    "name": "TOTP"
+  },
+  {
+    "name": "InfluxDB"
+  },
+  {
+    "name": "Expo"
+  },
+  {
+    "name": "JWT Decode"
+  },
+  {
+    "name": "Foundry"
+  },
+  {
+    "name": "Storybook"
+  },
+  {
+    "name": "Fastify"
+  },
+  {
+    "name": "Kafka"
+  },
+  {
+    "name": "Autoprefixer"
+  },
+  {
+    "name": "WebGL"
+  },
+  {
+    "name": "Vendor Management"
+  },
+  {
+    "name": "Scikit-learn"
+  },
+  {
+    "name": "Documentation"
+  },
+  {
+    "name": "Problem Solving"
+  },
+  {
+    "name": "C"
+  },
+  {
+    "name": "Socket.IO"
+  },
+  {
+    "name": "Coinbase API"
+  },
+  {
+    "name": "Heroku"
+  },
+  {
+    "name": "uuid"
+  },
+  {
+    "name": "Requirement Analysis"
+  },
+  {
+    "name": "Polygon"
+  },
+  {
+    "name": "Dagster"
+  },
+  {
+    "name": "Copywriting"
+  },
+  {
+    "name": "Feedback Analysis"
+  },
+  {
+    "name": "Optimism"
+  },
+  {
+    "name": "Segment"
+  },
+  {
+    "name": "Edge Functions"
+  },
+  {
+    "name": "Vercel Edge"
+  },
+  {
+    "name": "ISR (Incremental Static Regeneration)"
+  },
+  {
+    "name": "Discord API"
+  },
+  {
+    "name": "Budget Management"
+  },
+  {
+    "name": "Cassandra"
+  },
+  {
+    "name": "SSR (Server Side Rendering)"
+  },
+  {
+    "name": "Session Storage"
+  },
+  {
+    "name": "Gin"
+  },
+  {
+    "name": "SWR"
+  },
+  {
+    "name": "Data Analysis"
+  },
+  {
+    "name": "Adyen"
+  },
+  {
+    "name": "PostgreSQL"
+  },
+  {
+    "name": "Vitest"
+  },
+  {
+    "name": "Graylog"
+  },
+  {
+    "name": "GSAP"
+  },
+  {
+    "name": "Jetpack Compose"
+  },
+  {
+    "name": "Reverse Proxy"
+  },
+  {
+    "name": "Chakra UI"
+  },
+  {
+    "name": "Policy Writing"
+  },
+  {
+    "name": "CryptoJS"
+  },
+  {
+    "name": "AWS SES"
+  },
+  {
+    "name": "Process Mapping"
+  },
+  {
+    "name": "Fiber"
+  },
+  {
+    "name": "Passport.js"
+  },
+  {
+    "name": "Client Communication"
+  },
+  {
+    "name": "Route 53"
+  },
+  {
+    "name": "Aave"
+  },
+  {
+    "name": "Sentry"
+  },
+  {
+    "name": "Base"
+  },
+  {
+    "name": "Bootstrap"
+  }
 ]
